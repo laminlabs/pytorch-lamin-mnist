@@ -1,0 +1,5 @@
+project_name: pytorch-lamin-mnist
+description: Basic use case for PyTorch and imaging data
+project_slug: pytorch-lamin-mnist
+repository_name: pytorch-lamin-mnist
+package_name: pytorch_lamin_mnist
