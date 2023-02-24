@@ -1,15 +1,12 @@
 # Guide
 
-A step-wise pedagogic tutorial including a quickstart. The notebooks get executed in CI for testing.
+LaminDB makes it easy to query datasets for training ML models.
 
-Ideally, each feature is explained in a separate clean notebook.
-
-This makes it both easy for the user to understand the documentation, and for the developer to increase test coverage.
+This is the most basic use case covering the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset.
 
 ```{toctree}
 :maxdepth: 1
 
-mnist-intro
 mnist-ingest-local
 mnist-ingest-remote
 mnist-train
