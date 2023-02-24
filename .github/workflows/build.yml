@@ -46,7 +46,7 @@ jobs:
       - name: Install pip and nox
         run: |
           python -m pip install --upgrade pip
-          pip install laminci
+          pip install laminci>=0.2.1
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v1
         with:
