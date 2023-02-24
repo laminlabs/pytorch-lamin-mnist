@@ -14,7 +14,7 @@ def lint(session: nox.Session) -> None:
 def build(session):
     login_testuser1(session)
     session.install(".[dev,test]")
-    run_pytest(coverage=False)
+    run_pytest(session, coverage=False)
     build_docs(session)
     upload_docs_dir()
     move_built_docs_to_docs_slash_project_slug()
