@@ -12,6 +12,8 @@ dependencies = [
     "lamindb>=0.29.0",
     "torch",
     "torchvision",
+    "torchmetrics",
+    "pytorch-lightning",
     "Pillow"
 ]
 
