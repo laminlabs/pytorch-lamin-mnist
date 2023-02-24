@@ -9,5 +9,9 @@ This makes it both easy for the user to understand the documentation, and for th
 ```{toctree}
 :maxdepth: 1
 
-quickstart
+mnist-intro
+mnist-ingest-local
+mnist-ingest-remote
+mnist-train
+mnist-extend-schema
 ```

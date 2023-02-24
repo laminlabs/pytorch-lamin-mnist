@@ -9,6 +9,12 @@ readme = "README.md"
 dynamic = ["version", "description"]
 dependencies = [
     "nbproject",
+    "lamindb>=0.29.0",
+    "torch",
+    "torchvision",
+    "torchmetrics",
+    "pytorch-lightning",
+    "Pillow"
 ]
 
 [project.urls]
