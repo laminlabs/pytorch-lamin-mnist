@@ -1,15 +1,17 @@
 # Guide
 
-A step-wise pedagogic tutorial including a quickstart. The notebooks get executed in CI for testing.
+LaminDB makes it easy to query datasets for training ML models.
 
-Ideally, each feature is explained in a separate clean notebook.
+This is the most basic use case: training an autoencoder on the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset.
 
-This makes it both easy for the user to understand the documentation, and for the developer to increase test coverage.
+- [Ingesting a local imaging dataset](./mnist-ingest-local.ipynb)
+- [Ingesting a remote imaging dataset](./mnist-ingest-remote.ipynb)
+- [Training an autoencoder with Pytorch Lightning](./mnist-train.ipynb)
+- [Manually extending the LaminDB schema](./mnist-extend-schema.ipynb)
 
 ```{toctree}
 :maxdepth: 1
 
-mnist-intro
 mnist-ingest-local
 mnist-ingest-remote
 mnist-train
