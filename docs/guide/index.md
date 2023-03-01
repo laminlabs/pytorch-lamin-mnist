@@ -7,8 +7,6 @@ This is the most basic use case covering the [MNIST](http://yann.lecun.com/exdb/
 ```{toctree}
 :maxdepth: 1
 
-mnist-ingest-local
-mnist-ingest-remote
-mnist-train
+mnist-local
 mnist-extend-schema
 ```
