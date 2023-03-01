@@ -3,6 +3,7 @@
 <!-- prettier-ignore -->
 Name | PR | Developer | Date | Version
 --- | --- | --- | --- | ---
+💄 Simplify and integrate all notebooks into one | [8](https://github.com/laminlabs/pytorch-lamin-mnist/pull/8) | [bpenteado](https://github.com/bpenteado) | 2023-03-01 |
 :memo: More simplification | [7](https://github.com/laminlabs/pytorch-lamin-mnist/pull/7) | [falexwolf](https://github.com/falexwolf) | 2023-02-25 |
 🚚 Replace `lndb` with `lamin` | [6](https://github.com/laminlabs/pytorch-lamin-mnist/pull/6) | [falexwolf](https://github.com/falexwolf) | 2023-02-25 |
 📝 Simplify guide | [4](https://github.com/laminlabs/pytorch-lamin-mnist/pull/4) | [falexwolf](https://github.com/falexwolf) | 2023-02-24 |
