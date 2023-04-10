@@ -76,7 +76,7 @@ jobs:
       - name: Lint
         if: matrix.python-version == '3.9'
         run: |
-          nox -s lint --python ${{ matrix.python-version }}
+          nox -s lint
       - name: Build
         run: |
           nox -s build --python ${{ matrix.python-version }}
